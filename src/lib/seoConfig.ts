@@ -42,7 +42,11 @@ export const seoConfig = {
       "Nepal IT company", "सस्तो website Nepal", "mobile app Nepal", "software development Nepal",
       "digital marketing Nepal", "SEO services Nepal", "web design Nepal", "cheap website Nepal",
       "best IT company Nepal", "affordable app development Nepal", "website design Kathmandu",
-      "mobile app Pokhara", "software Chitwan", "IT services Butwal", "web development Dharan"
+      "mobile app Pokhara", "software Chitwan", "IT services Butwal", "web development Dharan",
+      "best website company Nepal", "best website company Damak", "best website company Purvanchal",
+      "best website company Province 1", "best IT company Province 1", "website development Province 1",
+      "website company Koshi Province", "website company Eastern Nepal", "website company Sunsari",
+      "website company Jhapa", "website company Morang", "website company Biratnagar"
     ],
     services: [
       "website development Nepal", "mobile app development Nepal", "e-commerce development Nepal",
@@ -145,11 +149,11 @@ export const seoConfig = {
   // Analytics and Tracking IDs
   analytics: {
     googleAnalytics: "G-5Y2T9CWNX4", // Your actual GA4 ID
-    googleTagManager: "GTM-XXXXXXX", // Replace with actual GTM ID
-    facebookPixel: "XXXXXXXXXXXXXXXXX", // Replace with actual FB Pixel ID
+    googleTagManager: "GTM-T5V24T4Z", // Replace with actual GTM ID
+    facebookPixel: "1283005036962428", // Replace with actual FB Pixel ID
     hotjarId: "XXXXXXX", // Replace with actual Hotjar ID
     microsoftClarity: "XXXXXXXXXX", // Replace with actual Clarity ID
-    linkedInInsight: "XXXXXXX" // Replace with actual LinkedIn ID
+    linkedInInsight: "107131290" // Replace with actual LinkedIn ID
   },
 
   // Image and Media
