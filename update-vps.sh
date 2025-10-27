@@ -11,7 +11,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # Configuration (UPDATE THESE VALUES)
-VPS_IP="YOUR_VPS_IP"
+VPS_IP="157.173.220.234"
 VPS_USER="root"
 PROJECT_DIR="/var/www/aoneskillsinternational"
 
