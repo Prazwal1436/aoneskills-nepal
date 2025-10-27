@@ -1,15 +1,15 @@
 // SEO Configuration for A.One Skills International
 export const seoConfig = {
   // Base website information
-  baseUrl: "https://aoneskill.com.np",
-  siteName: "A.One Skills International Nepal",
+  baseUrl: "https://aoneskills.com.np",
+  siteName: "A.One Skills Tech Solutions Nepal",
   siteTitle: "AOne Skills - Nepal #1 IT Company | सस्तो Website Mobile App Software SEO Digital Marketing सेवा",
   siteDescription: "Nepal को #1 IT company - सबैभन्दा सस्तो website बनाउने, mobile app development, e-commerce, digital marketing, SEO, software training। Kathmandu Pokhara Chitwan Butwal Dharan Biratnagar मा सेवा। Best quality, affordable price, expert Nepali team।",
   
   // Contact Information
   contact: {
     phone: "+977-9842747572",
-    email: "info@aoneskill.com.np",
+  email: "info@aoneskills.com.np",
     whatsapp: "+977-9842747572",
     address: {
       street: "A.One Skills Tech Solution Pvt. Ltd.",

@@ -11,19 +11,19 @@ import { useDiscount } from "../hooks/useDiscount";
 const getOrganizationJsonLd = (discountState: { discount: number; isActive: boolean }) => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://aoneskill.com.np/#organization",
+  "@id": "https://aoneskills.com.np/#organization",
   name: "A.One Skills Tech Solutions Pvt Ltd",
   alternateName: ["AOne Skills Nepal", "A1 Skills Nepal", "A One Skills International", "Best IT Company Nepal", "Top Software Company Nepal"],
-  url: "https://aoneskill.com.np",
+  url: "https://aoneskills.com.np",
   logo: {
     "@type": "ImageObject",
-    url: "https://aoneskill.com.np/logo.png",
+  url: "https://aoneskills.com.np/logo.png",
     width: "300",
     height: "100"
   },
   image: [
-    "https://aoneskill.com.np/images/aone-skills-office.jpg",
-    "https://aoneskill.com.np/images/team-photo.jpg"
+  "https://aoneskills.com.np/images/aone-skills-office.jpg",
+  "https://aoneskills.com.np/images/team-photo.jpg"
   ],
   description: "Nepal's #1 IT company providing best software development, web design, mobile app development, e-commerce solutions, digital marketing, and IT training services in Kathmandu, Pokhara, Chitwan, Butwal, Dharan, Biratnagar, Nepalgunj, and across all major cities of Nepal. Affordable IT services for small business, corporate companies, NGOs, and international clients.",
   slogan: "Nepal's Most Trusted IT Partner - सबैभन्दा भरपर्दो IT सेवा",
@@ -168,7 +168,7 @@ const getOrganizationJsonLd = (discountState: { discount: number; isActive: bool
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+977-9842747572",
-    email: "info@aoneskill.com.np",
+  email: "info@aoneskills.com.np",
     contactType: "Customer Service",
     areaServed: ["Nepal", "Kathmandu", "Pokhara", "Chitwan", "Butwal", "Dharan", "Biratnagar", "Damak"],
     availableLanguage: ["English", "Nepali", "Hindi", "नेपाली"],
@@ -275,16 +275,16 @@ const getOrganizationJsonLd = (discountState: { discount: number; isActive: bool
 const getWebsiteJsonLd = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://aoneskill.com.np/#website",
-  url: "https://aoneskill.com.np",
+  "@id": "https://aoneskills.com.np/#website",
+  url: "https://aoneskills.com.np",
   name: "A.One Skills Tech Solutions - Best IT Company Nepal | सबैभन्दा राम्रो IT सेवा",
   description: "Nepal ko #1 IT company - सस्तो website, mobile app, software, digital marketing, SEO, training - Kathmandu, Pokhara, Chitwan, Butwal, Dharan, Biratnagar सबै ठाउँमा सेवा",
   publisher: {
-    "@id": "https://aoneskill.com.np/#organization"
+  "@id": "https://aoneskills.com.np/#organization"
   },
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://aoneskill.com.np/search?q={search_term_string}",
+  target: "https://aoneskills.com.np/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
   },
   inLanguage: ["en-US", "ne-NP"]
@@ -293,8 +293,8 @@ const getWebsiteJsonLd = () => ({
 const getWebpageJsonLd = (discountState: { discount: number; isActive: boolean }) => ({
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://aoneskill.com.np/#webpage",
-  url: "https://aoneskill.com.np",
+  "@id": "https://aoneskills.com.np/#webpage",
+  url: "https://aoneskills.com.np",
   name: discountState.isActive 
     ? `AOne Skills International - ${discountState.discount}% OFF IT Services Nepal`
     : "AOne Skills International - Leading IT Company Nepal",
@@ -302,10 +302,10 @@ const getWebpageJsonLd = (discountState: { discount: number; isActive: boolean }
     ? `Professional IT services in Nepal with ${discountState.discount}% discount. Web development, mobile apps, software solutions for Nepali businesses.`
     : "Professional IT services in Nepal. Web development, mobile apps, e-commerce, digital marketing, and custom software solutions for businesses across Nepal.",
   isPartOf: {
-    "@id": "https://aoneskill.com.np/#website"
+  "@id": "https://aoneskills.com.np/#website"
   },
   about: {
-    "@id": "https://aoneskill.com.np/#organization"
+  "@id": "https://aoneskills.com.np/#organization"
   },
   datePublished: "2019-01-01",
   dateModified: new Date().toISOString().split('T')[0]
@@ -319,7 +319,7 @@ const getBreadcrumbJsonLd = () => ({
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://aoneskill.com.np"
+  item: "https://aoneskills.com.np"
     }
   ]
 });
@@ -427,9 +427,9 @@ export default function Home() {
 
     updateOrCreateOgTag('og:title', seoTitle);
     updateOrCreateOgTag('og:description', seoDescription);
-    updateOrCreateOgTag('og:url', 'https://aoneskill.com.np');
+  updateOrCreateOgTag('og:url', 'https://aoneskills.com.np');
     updateOrCreateOgTag('og:type', 'website');
-    updateOrCreateOgTag('og:image', 'https://aoneskill.com.np/images/og-image.jpg');
+  updateOrCreateOgTag('og:image', 'https://aoneskills.com.np/images/og-image.jpg');
     updateOrCreateOgTag('og:site_name', 'AOne Skills International');
     updateOrCreateOgTag('og:locale', 'en_US');
     updateOrCreateOgTag('og:locale:alternate', 'ne_NP');
@@ -450,7 +450,7 @@ export default function Home() {
     updateOrCreateTwitterTag('twitter:card', 'summary_large_image');
     updateOrCreateTwitterTag('twitter:title', seoTitle);
     updateOrCreateTwitterTag('twitter:description', seoDescription);
-    updateOrCreateTwitterTag('twitter:image', 'https://aoneskill.com.np/images/twitter-card.jpg');
+  updateOrCreateTwitterTag('twitter:image', 'https://aoneskills.com.np/images/twitter-card.jpg');
     updateOrCreateTwitterTag('twitter:site', '@aoneskillnepal');
     updateOrCreateTwitterTag('twitter:creator', '@aoneskillnepal');
 
@@ -464,11 +464,11 @@ export default function Home() {
     // Canonical URL
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
-      canonical.setAttribute('href', 'https://aoneskill.com.np');
+  canonical.setAttribute('href', 'https://aoneskills.com.np');
     } else {
       const link = document.createElement('link');
       link.rel = 'canonical';
-      link.href = 'https://aoneskill.com.np';
+  link.href = 'https://aoneskills.com.np';
       document.head.appendChild(link);
     }
 
@@ -484,7 +484,7 @@ export default function Home() {
       }
     };
 
-    addHreflang('en', 'https://aoneskill.com.np');
+  addHreflang('en', 'https://aoneskills.com.np');
     addHreflang('ne', 'https://aoneskill.com.np/ne');
     addHreflang('x-default', 'https://aoneskill.com.np');
 
