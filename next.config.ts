@@ -122,7 +122,22 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/course',
-        destination: '/courses',
+        destination: '/products',
+        permanent: true,
+      },
+      {
+        source: '/courses',
+        destination: '/products',
+        permanent: true,
+      },
+      {
+        source: '/course/:slug*',
+        destination: '/products',
+        permanent: true,
+      },
+      {
+        source: '/courses/:slug*',
+        destination: '/products',
         permanent: true,
       },
       {
