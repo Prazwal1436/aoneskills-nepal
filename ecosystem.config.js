@@ -9,7 +9,9 @@ module.exports = {
       autorestart: true,
       watch: false,
       max_memory_restart: '1G',
-    
+      env: {
+        PORT: 3001
+      },
   error_file: '/root/aoneskills-nepal/logs/err.log',
   out_file: '/root/aoneskills-nepal/logs/out.log',
   log_file: '/root/aoneskills-nepal/logs/combined.log',
