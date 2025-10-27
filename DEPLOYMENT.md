@@ -13,16 +13,8 @@ Complete production deployment setup for A.One Skills International website usin
 
 ## 🚀 Quick Deployment
 
-### Option 1: Automated Deployment (Recommended)
-```bash
-# Navigate to project directory
-cd /Users/prajjwalparajuli/Desktop/NextFinal/aoneskillsinternational
 
-# Run deployment script
-./deploy.sh
-```
-
-### Option 2: Manual Deployment
+### Manual Deployment
 ```bash
 # 1. Install dependencies and build
 npm install
@@ -46,7 +38,7 @@ pm2 startup
 aoneskillsinternational/
 ├── ecosystem.config.js     # PM2 configuration
 ├── nginx.conf             # Nginx configuration
-├── deploy.sh              # Automated deployment script
+
 ├── next.config.ts         # Next.js configuration
 ├── package.json           # Dependencies and scripts
 ├── src/

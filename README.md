@@ -43,18 +43,25 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🏗️ Build & Deploy
+
+## 🏗️ Build & Manual Deployment
 
 ```bash
 # Build for production
 npm run build
 
-# Start production server
-npm start
+# Start production server with PM2
+pm2 start ecosystem.config.js
 
 # Run linting
 npm run lint
 ```
+
+### Manual Deployment Steps
+1. Add your `.env` file to the project root (not tracked in git).
+2. Configure your `nginx.conf` for your server and point it to your Next.js app.
+3. Use PM2 to manage your production process (`pm2 start ecosystem.config.js`).
+4. For more details, see `DEPLOYMENT.md` and `VPS-DEPLOYMENT.md`.
 
 ## 📊 SEO Best Practices Implemented
 
@@ -138,12 +145,16 @@ Edit `src/components/Footer.tsx` to update contact info and links
 6. **Create landing pages**: For specific courses/services
 7. **Add live chat**: Improve user engagement
 
+
 ## 🌐 Deployment
 
-### Deploy on Vercel (Recommended)
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+### Manual VPS/Server Deployment
+Auto deployment scripts have been removed. Please deploy manually:
+- Add your `.env` file
+- Configure `nginx.conf`
+- Use PM2 for process management
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For cloud deployment, you may still use Vercel or other platforms if desired. See [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more options.
 
 ## 🤝 Support
 
