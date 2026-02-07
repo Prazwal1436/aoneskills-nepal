@@ -167,6 +167,7 @@ export const metadata: Metadata = {
   },
 };
 
+// ...existing code...
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -205,7 +206,7 @@ export default function RootLayout({
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-XXXXXXX');`,
+            })(window,document,'script','dataLayer','GTM-T5V24T4Z');`,
           }}
         />
         
@@ -261,9 +262,20 @@ export default function RootLayout({
             width="1"
             style={{ display: 'none' }}
             src="https://www.facebook.com/tr?id=1283005036962428&ev=PageView&noscript=1"
+            alt=""
           />
         </noscript>
         
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-T5V24T4Z"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+
         {/* Local Business Schema */}
         <script
           type="application/ld+json"
@@ -309,16 +321,6 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans antialiased">
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          ></iframe>
-        </noscript>
-        
         <Navigation />
         <PerformanceMonitor />
         {children}
@@ -328,3 +330,4 @@ export default function RootLayout({
     </html>
   );
 }
+// ...existing code...

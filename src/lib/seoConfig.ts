@@ -38,32 +38,52 @@ export const seoConfig = {
 
   // SEO Keywords by Category
   keywords: {
+    // Brand & Homepage
+    brand: [
+      "AOne Skills Nepal", "aoneskills.com.np", "A.One Skills Tech Solutions Pvt Ltd", "Nepal IT company", "Best IT company Nepal", "Affordable web design Nepal", "Affordable website Nepal", "सस्तो website नेपाल", "सस्तो वेबसाइट बनाउने नेपाल", "Nepal web solutions company"
+    ],
+    // Website Development
+    website: [
+      "website development Nepal", "web design Nepal", "website development company Nepal", "affordable website Nepal", "cheap website Nepal", "business website Nepal", "hire web developer Nepal", "website design company Kathmandu", "web development company Damak", "सस्तो वेबसाइट बनाउने", "वेबसाइट विकास नेपाल", "website cost Nepal 2025", "how much does a website cost in Nepal"
+    ],
+    // Mobile App Development
+    app: [
+      "mobile app development Nepal", "Android app development Nepal", "iOS app development Nepal", "mobile app developer Nepal", "hire mobile app developer Nepal", "affordable mobile app Nepal", "app development company Kathmandu", "app development Biratnagar", "मोबाइल एप बनाउने नेपाल", "मोबाइल एप विकास नेपाल", "mobile app cost Nepal"
+    ],
+    // E-commerce
+    ecommerce: [
+      "e-commerce development Nepal", "ecommerce website Nepal", "online store Nepal", "shopify alternatives Nepal", "nepali online store solution", "create online shop Nepal", "e-commerce web design Nepal", "e-commerce company Damak", "ecommerce development cost Nepal", "अनलाइन स्टोर नेपाल", "इ–commerce नेपाल"
+    ],
+    // Digital Marketing
+    marketing: [
+      "digital marketing Nepal", "social media marketing Nepal", "SEO company Nepal", "SEO service Nepal", "facebook marketing Nepal", "instagram marketing Nepal", "best digital marketing agency Nepal", "social media management Nepal", "reels marketing Nepal", "product photography for e-commerce Nepal", "social media package Nepal", "डिजिटल मार्केटिङ नेपाल", "फेसबुक मार्केटिङ नेपाल"
+    ],
+    // Software / CRM / ERP
+    software: [
+      "custom software Nepal", "CRM software Nepal", "ERP software Nepal", "business management software Nepal", "ERP CRM SaaS Nepal", "affordable business software Nepal", "HRM software Nepal", "ब्यवस्थापन सफ्टवेयर नेपाल", "crm software damak"
+    ],
+    // IT Training
+    training: [
+      "IT training Nepal", "web development course Nepal", "programming course Nepal", "web development training Damak", "online coding course Nepal", "वेब डेवलपमेन्ट तालिम नेपाल"
+    ],
+    // Product Photography
+    photography: [
+      "product photography Nepal", "product photos for ecommerce Nepal", "product photography Damak", "ecommerce product photography Nepal", "affordable product photography Nepal", "product photography package Nepal", "product photos for online shop Nepal", "सामानको फोटोग्राफी नेपाल"
+    ],
+    // City-targeted (template)
+    cityTemplates: [
+      "[service] [city]", "[service] in [city]", "best [service] [city]", "affordable [service] [city]", "[service] near me [city]"
+    ],
+    // All-in-one for meta tags
     primary: [
-      "Nepal IT company", "सस्तो website Nepal", "mobile app Nepal", "software development Nepal",
-      "digital marketing Nepal", "SEO services Nepal", "web design Nepal", "cheap website Nepal",
-      "best IT company Nepal", "affordable app development Nepal", "website design Kathmandu",
-      "mobile app Pokhara", "software Chitwan", "IT services Butwal", "web development Dharan",
-      "best website company Nepal", "best website company Damak", "best website company Purvanchal",
-      "best website company Province 1", "best IT company Province 1", "website development Province 1",
-      "website company Koshi Province", "website company Eastern Nepal", "website company Sunsari",
-      "website company Jhapa", "website company Morang", "website company Biratnagar"
-    ],
-    services: [
-      "website development Nepal", "mobile app development Nepal", "e-commerce development Nepal",
-      "digital marketing Nepal", "SEO company Nepal", "software development Nepal",
-      "web design Nepal", "app development Nepal", "IT consulting Nepal", "domain hosting Nepal"
-    ],
-    locations: [
-      "website company Kathmandu", "IT company Pokhara", "web development Chitwan",
-      "mobile app Butwal", "software company Dharan", "website company Biratnagar",
-      "IT services Damak", "web design Nepalgunj", "app development Janakpur",
-      "website company near me Nepal", "IT company near me Nepal"
-    ],
-    nepali: [
-      "सस्तो website बनाउने", "mobile app बनाउने", "software development Nepal",
-      "digital marketing Nepal", "SEO सेवा Nepal", "website company Nepal",
-      "IT सेवा Nepal", "web design Nepal", "app development Nepal",
-      "domain hosting Nepal", "online store Nepal", "e-commerce Nepal"
+      "AOne Skills Nepal", "aoneskills.com.np", "A.One Skills Tech Solutions Pvt Ltd", "Nepal IT company", "Best IT company Nepal", "Affordable web design Nepal", "Affordable website Nepal", "सस्तो website नेपाल", "सस्तो वेबसाइट बनाउने नेपाल", "Nepal web solutions company",
+      "website development Nepal", "web design Nepal", "website development company Nepal", "affordable website Nepal", "cheap website Nepal", "business website Nepal", "hire web developer Nepal", "website design company Kathmandu", "web development company Damak", "सस्तो वेबसाइट बनाउने", "वेबसाइट विकास नेपाल", "website cost Nepal 2025", "how much does a website cost in Nepal",
+      "mobile app development Nepal", "Android app development Nepal", "iOS app development Nepal", "mobile app developer Nepal", "hire mobile app developer Nepal", "affordable mobile app Nepal", "app development company Kathmandu", "app development Biratnagar", "मोबाइल एप बनाउने नेपाल", "मोबाइल एप विकास नेपाल", "mobile app cost Nepal",
+      "e-commerce development Nepal", "ecommerce website Nepal", "online store Nepal", "shopify alternatives Nepal", "nepali online store solution", "create online shop Nepal", "e-commerce web design Nepal", "e-commerce company Damak", "ecommerce development cost Nepal", "अनलाइन स्टोर नेपाल", "इ–commerce नेपाल",
+      "digital marketing Nepal", "social media marketing Nepal", "SEO company Nepal", "SEO service Nepal", "facebook marketing Nepal", "instagram marketing Nepal", "best digital marketing agency Nepal", "social media management Nepal", "reels marketing Nepal", "product photography for e-commerce Nepal", "social media package Nepal", "डिजिटल मार्केटिङ नेपाल", "फेसबुक मार्केटिङ नेपाल",
+      "custom software Nepal", "CRM software Nepal", "ERP software Nepal", "business management software Nepal", "ERP CRM SaaS Nepal", "affordable business software Nepal", "HRM software Nepal", "ब्यवस्थापन सफ्टवेयर नेपाल", "crm software damak",
+      "IT training Nepal", "web development course Nepal", "programming course Nepal", "web development training Damak", "online coding course Nepal", "वेब डेवलपमेन्ट तालिम नेपाल",
+      "product photography Nepal", "product photos for ecommerce Nepal", "product photography Damak", "ecommerce product photography Nepal", "affordable product photography Nepal", "product photography package Nepal", "product photos for online shop Nepal", "सामानको फोटोग्राफी नेपाल"
     ]
   },
 
@@ -166,7 +186,8 @@ export const seoConfig = {
   }
 };
 
-// Generate dynamic meta tags
+
+// Generate dynamic meta tags with templates for Homepage, Website Development, E-commerce, Damak, Product Photography, and city/service pages
 export const generateMetaTags = (pageType: string, customData?: any) => {
   const base = {
     title: seoConfig.siteTitle,
@@ -179,32 +200,62 @@ export const generateMetaTags = (pageType: string, customData?: any) => {
     case 'homepage':
       return {
         ...base,
-        title: "A.One Skills - Nepal #1 IT Company | सस्तो Website Mobile App Software SEO Digital Marketing सेवा",
-        description: "Nepal को #1 IT company - सबैभन्दा सस्तो website बनाउने, mobile app development, e-commerce, digital marketing, SEO, software training। Kathmandu Pokhara Chitwan Butwal Dharan Biratnagar मा सेवा। Best quality, affordable price, expert Nepali team।"
+        title: "AOne Skills — Nepal #1 IT Company | Websites, Apps, SEO",
+        description: "AOne Skills: Affordable website, mobile app & digital marketing in Nepal. Product photography included in every package. Free quote: +977-9842747572."
       };
-    
+    case 'website-development':
+      return {
+        ...base,
+        title: "Website Development Nepal — Affordable Web Design | AOne Skills",
+        description: "Professional website development in Nepal. Affordable prices (NPR 35,000+), product photography & SEO included. Call +977-9842747572."
+      };
+    case 'ecommerce-solutions':
+      return {
+        ...base,
+        title: "Ecommerce Website Nepal — Online Store Development",
+        description: "Launch your online store in Nepal. Custom e-commerce sites, payment gateway integration, product photography & marketing. Free consultation."
+      };
+    case 'damak-city':
+      return {
+        ...base,
+        title: "Website Company in Damak — AOne Skills",
+        description: "Top web development company in Damak. Affordable business websites, product photography & local SEO. Contact +977-9842747572."
+      };
+    case 'product-photography':
+      return {
+        ...base,
+        title: "Product Photography Nepal — Included With Packages",
+        description: "Stunning product photos for e-commerce. All packages include product photography—perfect for Nepali online stores & social ads."
+      };
+    case 'city-service':
+      // Dynamic city/service meta
+      if (customData && customData.service && customData.city) {
+        return {
+          ...base,
+          title: `${customData.service} in ${customData.city} — AOne Skills`,
+          description: `Best ${customData.service} in ${customData.city}. Affordable, expert team, product photography included. Call +977-9842747572.`
+        };
+      }
+      return base;
     case 'services':
       return {
         ...base,
         title: "IT Services Nepal - Web Development, Mobile Apps, Software | AOne Skills",
         description: "Complete IT services in Nepal: Website development, mobile apps, e-commerce, digital marketing, custom software, SEO. Professional team, affordable prices, 24/7 support across Nepal.",
-        keywords: seoConfig.keywords.services.join(", ")
+        keywords: seoConfig.keywords.primary.join(", ")
       };
-    
     case 'contact':
       return {
         ...base,
         title: "Contact AOne Skills Nepal - Best IT Company | Call +977-9842747572",
         description: "Contact Nepal's #1 IT company for website, mobile app, software development. Free consultation, expert team, affordable prices. Call +977-9842747572 or WhatsApp for instant response."
       };
-    
     case 'about':
       return {
         ...base,
         title: "About AOne Skills - Leading IT Company Nepal | 150+ Projects, 5+ Years Experience",
         description: "Founded in 2019, AOne Skills is Nepal's trusted IT partner with 150+ completed projects, 98% client satisfaction. Expert team providing website, app, software solutions across Nepal."
       };
-    
     default:
       return base;
   }

@@ -1,10 +1,39 @@
 "use client";
+
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Head from "next/head";
+import { generateMetaTags } from "@/lib/seoConfig";
 
 export default function WebsiteDevelopment() {
+  const meta = generateMetaTags("website-development");
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Website Development",
+    "provider": {
+      "@type": "Organization",
+      "name": "A.One Skills Tech Solutions Pvt Ltd",
+      "url": "https://aoneskills.com.np"
+    },
+    "areaServed": ["Nepal", "Kathmandu", "Pokhara", "Chitwan", "Butwal", "Dharan", "Biratnagar", "Damak"],
+    "description": meta.description,
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "NPR",
+      "price": "35000+",
+      "url": "https://aoneskills.com.np/services/website-development"
+    },
+    "keywords": meta.keywords
+  };
   return (
     <>
+      <Head>
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta name="keywords" content={meta.keywords} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      </Head>
       {/* Hero Section */}
       <motion.section
         className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-800 text-white py-24 overflow-hidden"
