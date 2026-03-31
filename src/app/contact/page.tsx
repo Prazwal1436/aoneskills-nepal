@@ -477,8 +477,8 @@ export default function Contact() {
                         </svg>
                       ),
                       title: "Email Us",
-                      primary: "info@aoneskill.com.np",
-                      secondary: "support@aoneskill.com.np",
+                      primary: "info@aoneskills.com.np",
+                      secondary: "support@aoneskills.com.np",
                       gradient: "from-blue-500 to-blue-600"
                     },
                     {
@@ -735,7 +735,7 @@ export default function Contact() {
                     <h4 className="font-bold text-slate-900 mb-2">Contact Info</h4>
                     <p className="text-slate-600">
                       Phone: +977-1-4567890<br />
-                      Email: info@aoneskill.com.np
+                      Email: info@aoneskills.com.np
                     </p>
                   </div>
                   <div className="text-center md:text-left">
@@ -848,7 +848,7 @@ export default function Contact() {
                 Call Us Now
               </a>
               <a
-                href="mailto:info@aoneskill.com.np"
+                href="mailto:info@aoneskills.com.np"
                 className="inline-flex items-center justify-center border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300"
               >
                 <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

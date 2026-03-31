@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     "best IT company Kathmandu"
   ],
   alternates: {
-    canonical: "https://aoneskill.com.np/services/kathmandu"
+    canonical: "https://aoneskills.com.np/services/kathmandu"
   },
   openGraph: {
     title: "Best Website Company Kathmandu Nepal | AOne Skills",
     description: "Professional IT services in Kathmandu - website development, mobile apps, software solutions. Expert team, affordable prices, local support.",
-    url: "https://aoneskill.com.np/services/kathmandu",
+    url: "https://aoneskills.com.np/services/kathmandu",
     siteName: "AOne Skills International Nepal",
     locale: "en_US",
     type: "website"
@@ -48,12 +48,12 @@ export default function KathmanduServices() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "@id": "https://aoneskill.com.np/services/kathmandu#localbusiness",
+            "@id": "https://aoneskills.com.np/services/kathmandu#localbusiness",
             "name": "AOne Skills International - Kathmandu",
             "description": "Professional IT services in Kathmandu Nepal - website development, mobile app development, e-commerce solutions, digital marketing, and custom software development.",
-            "url": "https://aoneskill.com.np/services/kathmandu",
+            "url": "https://aoneskills.com.np/services/kathmandu",
             "telephone": "+977-9842747572",
-            "email": "kathmandu@aoneskill.com.np",
+            "email": "kathmandu@aoneskills.com.np",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Kathmandu",

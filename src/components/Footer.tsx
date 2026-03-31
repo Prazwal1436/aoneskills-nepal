@@ -340,13 +340,13 @@ export default function Footer() {
                   <div>
                     <h5 className="font-semibold text-white mb-2">Email Us</h5>
                     <p className="text-gray-300">
-                      <a href="mailto:info@aoneskill.com.np" className="hover:text-white transition-colors duration-300">
-                        info@aoneskill.com.np
+                      <a href="mailto:info@aoneskills.com.np" className="hover:text-white transition-colors duration-300">
+                        info@aoneskills.com.np
                       </a>
                     </p>
                     <p className="text-gray-300">
-                      <a href="mailto:support@aoneskill.com.np" className="hover:text-white transition-colors duration-300">
-                        support@aoneskill.com.np
+                      <a href="mailto:support@aoneskills.com.np" className="hover:text-white transition-colors duration-300">
+                        support@aoneskills.com.np
                       </a>
                     </p>
                   </div>

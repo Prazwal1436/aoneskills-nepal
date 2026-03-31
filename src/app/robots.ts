@@ -39,7 +39,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/"
       }
     ],
-    sitemap: "https://aoneskill.com.np/sitemap.xml",
-    host: "https://aoneskill.com.np"
+    sitemap: "https://aoneskills.com.np/sitemap.xml",
+    host: "https://aoneskills.com.np"
   };
 }

@@ -196,7 +196,7 @@ export default function NotFound() {
             { name: "Website Development", href: "/services/website-development" },
             { name: "Mobile Apps", href: "/services/mobile-app-development" },
             { name: "E-commerce", href: "/services/ecommerce-solutions" },
-            { name: "Digital Products", href: "/products" }
+            { name: "Custom Solutions", href: "/products" }
           ].map((link, index) => (
             <motion.div
               key={link.name}

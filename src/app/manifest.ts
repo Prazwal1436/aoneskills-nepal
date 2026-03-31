@@ -62,9 +62,9 @@ export default function manifest(): MetadataRoute.Manifest {
         ]
       },
       {
-        name: "IT Products",
-        short_name: "Products", 
-        description: "Browse our ready-to-use digital products and solutions",
+        name: "Custom Solutions",
+        short_name: "Solutions",
+        description: "Get custom-built software, web, and mobile solutions for your business",
         url: "/products",
         icons: [
           {

@@ -46,12 +46,12 @@ export default function SEOAnalytics({ pageTitle, pageUrl, customEvents }: SEOAn
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://aoneskill.com.np"
+        "item": "https://aoneskills.com.np"
       }
     ];
 
     pathSegments.forEach((segment, index) => {
-      const url = `https://aoneskill.com.np/${pathSegments.slice(0, index + 1).join('/')}`;
+      const url = `https://aoneskills.com.np/${pathSegments.slice(0, index + 1).join('/')}`;
       const name = segment.charAt(0).toUpperCase() + segment.slice(1).replace(/-/g, ' ');
       
       breadcrumbs.push({

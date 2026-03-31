@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'aoneskill.com.np',
+        hostname: 'aoneskills.com.np',
       },
       {
         protocol: 'https',

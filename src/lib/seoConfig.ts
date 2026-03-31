@@ -40,50 +40,67 @@ export const seoConfig = {
   keywords: {
     // Brand & Homepage
     brand: [
-      "AOne Skills Nepal", "aoneskills.com.np", "A.One Skills Tech Solutions Pvt Ltd", "Nepal IT company", "Best IT company Nepal", "Affordable web design Nepal", "Affordable website Nepal", "सस्तो website नेपाल", "सस्तो वेबसाइट बनाउने नेपाल", "Nepal web solutions company"
+      "AOne Skills Nepal", "aoneskills.com.np", "A.One Skills Tech Solutions Pvt Ltd", "Nepal IT company", "Best IT company Nepal", "Affordable web design Nepal", "Affordable website Nepal", "सस्तो website नेपाल", "सस्तो वेबसाइट बनाउने नेपाल", "Nepal web solutions company",
+      "top IT company Nepal", "award winning IT company Nepal", "Nepal tech experts", "trusted IT partner Nepal", "best Nepali tech company 2026"
     ],
     // Website Development
     website: [
-      "website development Nepal", "web design Nepal", "website development company Nepal", "affordable website Nepal", "cheap website Nepal", "business website Nepal", "hire web developer Nepal", "website design company Kathmandu", "web development company Damak", "सस्तो वेबसाइट बनाउने", "वेबसाइट विकास नेपाल", "website cost Nepal 2025", "how much does a website cost in Nepal"
+      "website development Nepal", "web design Nepal", "website development company Nepal", "affordable website Nepal", "cheap website Nepal", "business website Nepal", "hire web developer Nepal", "website design company Kathmandu", "web development company Damak", "सस्तो वेबसाइट बनाउने", "वेबसाइट विकास नेपाल", "website cost Nepal 2025", "how much does a website cost in Nepal",
+      "responsive website Nepal", "SEO friendly website Nepal", "WordPress website Nepal", "custom website Nepal", "website redesign Nepal", "website maintenance Nepal", "website security Nepal", "website speed optimization Nepal"
     ],
     // Mobile App Development
     app: [
-      "mobile app development Nepal", "Android app development Nepal", "iOS app development Nepal", "mobile app developer Nepal", "hire mobile app developer Nepal", "affordable mobile app Nepal", "app development company Kathmandu", "app development Biratnagar", "मोबाइल एप बनाउने नेपाल", "मोबाइल एप विकास नेपाल", "mobile app cost Nepal"
+      "mobile app development Nepal", "Android app development Nepal", "iOS app development Nepal", "mobile app developer Nepal", "hire mobile app developer Nepal", "affordable mobile app Nepal", "app development company Kathmandu", "app development Biratnagar", "मोबाइल एप बनाउने नेपाल", "मोबाइल एप विकास नेपाल", "mobile app cost Nepal",
+      "cross platform app Nepal", "Flutter app Nepal", "React Native app Nepal", "hybrid app development Nepal", "mobile app UI/UX Nepal", "app store optimization Nepal", "mobile app support Nepal"
     ],
     // E-commerce
     ecommerce: [
-      "e-commerce development Nepal", "ecommerce website Nepal", "online store Nepal", "shopify alternatives Nepal", "nepali online store solution", "create online shop Nepal", "e-commerce web design Nepal", "e-commerce company Damak", "ecommerce development cost Nepal", "अनलाइन स्टोर नेपाल", "इ–commerce नेपाल"
+      "e-commerce development Nepal", "ecommerce website Nepal", "online store Nepal", "shopify alternatives Nepal", "nepali online store solution", "create online shop Nepal", "e-commerce web design Nepal", "e-commerce company Damak", "ecommerce development cost Nepal", "अनलाइन स्टोर नेपाल", "इ–commerce नेपाल",
+      "B2B ecommerce Nepal", "B2C ecommerce Nepal", "multi vendor ecommerce Nepal", "woocommerce Nepal", "shopify Nepal", "online payment integration Nepal", "ecommerce SEO Nepal", "ecommerce marketing Nepal"
     ],
     // Digital Marketing
     marketing: [
-      "digital marketing Nepal", "social media marketing Nepal", "SEO company Nepal", "SEO service Nepal", "facebook marketing Nepal", "instagram marketing Nepal", "best digital marketing agency Nepal", "social media management Nepal", "reels marketing Nepal", "product photography for e-commerce Nepal", "social media package Nepal", "डिजिटल मार्केटिङ नेपाल", "फेसबुक मार्केटिङ नेपाल"
+      "digital marketing Nepal", "social media marketing Nepal", "SEO company Nepal", "SEO service Nepal", "facebook marketing Nepal", "instagram marketing Nepal", "best digital marketing agency Nepal", "social media management Nepal", "reels marketing Nepal", "product photography for e-commerce Nepal", "social media package Nepal", "डिजिटल मार्केटिङ नेपाल", "फेसबुक मार्केटिङ नेपाल",
+      "Google Ads Nepal", "YouTube marketing Nepal", "TikTok marketing Nepal", "influencer marketing Nepal", "content marketing Nepal", "email marketing Nepal", "online branding Nepal", "digital strategy Nepal", "SEO audit Nepal"
     ],
     // Software / CRM / ERP
     software: [
-      "custom software Nepal", "CRM software Nepal", "ERP software Nepal", "business management software Nepal", "ERP CRM SaaS Nepal", "affordable business software Nepal", "HRM software Nepal", "ब्यवस्थापन सफ्टवेयर नेपाल", "crm software damak"
+      "custom software Nepal", "CRM software Nepal", "ERP software Nepal", "business management software Nepal", "ERP CRM SaaS Nepal", "affordable business software Nepal", "HRM software Nepal", "ब्यवस्थापन सफ्टवेयर नेपाल", "crm software damak",
+      "cloud software Nepal", "SaaS Nepal", "inventory software Nepal", "POS software Nepal", "school management software Nepal", "hospital management software Nepal", "custom ERP Nepal", "software support Nepal"
     ],
     // IT Training
     training: [
-      "IT training Nepal", "web development course Nepal", "programming course Nepal", "web development training Damak", "online coding course Nepal", "वेब डेवलपमेन्ट तालिम नेपाल"
+      "IT training Nepal", "web development course Nepal", "programming course Nepal", "web development training Damak", "online coding course Nepal", "वेब डेवलपमेन्ट तालिम नेपाल",
+      "digital marketing course Nepal", "SEO training Nepal", "app development course Nepal", "graphic design course Nepal", "UI UX training Nepal", "online IT course Nepal", "best IT institute Nepal"
     ],
     // Product Photography
     photography: [
-      "product photography Nepal", "product photos for ecommerce Nepal", "product photography Damak", "ecommerce product photography Nepal", "affordable product photography Nepal", "product photography package Nepal", "product photos for online shop Nepal", "सामानको फोटोग्राफी नेपाल"
+      "product photography Nepal", "product photos for ecommerce Nepal", "product photography Damak", "ecommerce product photography Nepal", "affordable product photography Nepal", "product photography package Nepal", "product photos for online shop Nepal", "सामानको फोटोग्राफी नेपाल",
+      "commercial photography Nepal", "studio photography Nepal", "creative product photography Nepal", "360 product photography Nepal", "product video Nepal", "ecommerce videography Nepal"
     ],
     // City-targeted (template)
     cityTemplates: [
-      "[service] [city]", "[service] in [city]", "best [service] [city]", "affordable [service] [city]", "[service] near me [city]"
+      "[service] [city]", "[service] in [city]", "best [service] [city]", "affordable [service] [city]", "[service] near me [city]",
+      "top [service] [city]", "trusted [service] [city]", "[service] provider [city]"
     ],
     // All-in-one for meta tags
     primary: [
       "AOne Skills Nepal", "aoneskills.com.np", "A.One Skills Tech Solutions Pvt Ltd", "Nepal IT company", "Best IT company Nepal", "Affordable web design Nepal", "Affordable website Nepal", "सस्तो website नेपाल", "सस्तो वेबसाइट बनाउने नेपाल", "Nepal web solutions company",
+      "top IT company Nepal", "award winning IT company Nepal", "Nepal tech experts", "trusted IT partner Nepal", "best Nepali tech company 2026",
       "website development Nepal", "web design Nepal", "website development company Nepal", "affordable website Nepal", "cheap website Nepal", "business website Nepal", "hire web developer Nepal", "website design company Kathmandu", "web development company Damak", "सस्तो वेबसाइट बनाउने", "वेबसाइट विकास नेपाल", "website cost Nepal 2025", "how much does a website cost in Nepal",
+      "responsive website Nepal", "SEO friendly website Nepal", "WordPress website Nepal", "custom website Nepal", "website redesign Nepal", "website maintenance Nepal", "website security Nepal", "website speed optimization Nepal",
       "mobile app development Nepal", "Android app development Nepal", "iOS app development Nepal", "mobile app developer Nepal", "hire mobile app developer Nepal", "affordable mobile app Nepal", "app development company Kathmandu", "app development Biratnagar", "मोबाइल एप बनाउने नेपाल", "मोबाइल एप विकास नेपाल", "mobile app cost Nepal",
+      "cross platform app Nepal", "Flutter app Nepal", "React Native app Nepal", "hybrid app development Nepal", "mobile app UI/UX Nepal", "app store optimization Nepal", "mobile app support Nepal",
       "e-commerce development Nepal", "ecommerce website Nepal", "online store Nepal", "shopify alternatives Nepal", "nepali online store solution", "create online shop Nepal", "e-commerce web design Nepal", "e-commerce company Damak", "ecommerce development cost Nepal", "अनलाइन स्टोर नेपाल", "इ–commerce नेपाल",
+      "B2B ecommerce Nepal", "B2C ecommerce Nepal", "multi vendor ecommerce Nepal", "woocommerce Nepal", "shopify Nepal", "online payment integration Nepal", "ecommerce SEO Nepal", "ecommerce marketing Nepal",
       "digital marketing Nepal", "social media marketing Nepal", "SEO company Nepal", "SEO service Nepal", "facebook marketing Nepal", "instagram marketing Nepal", "best digital marketing agency Nepal", "social media management Nepal", "reels marketing Nepal", "product photography for e-commerce Nepal", "social media package Nepal", "डिजिटल मार्केटिङ नेपाल", "फेसबुक मार्केटिङ नेपाल",
+      "Google Ads Nepal", "YouTube marketing Nepal", "TikTok marketing Nepal", "influencer marketing Nepal", "content marketing Nepal", "email marketing Nepal", "online branding Nepal", "digital strategy Nepal", "SEO audit Nepal",
       "custom software Nepal", "CRM software Nepal", "ERP software Nepal", "business management software Nepal", "ERP CRM SaaS Nepal", "affordable business software Nepal", "HRM software Nepal", "ब्यवस्थापन सफ्टवेयर नेपाल", "crm software damak",
+      "cloud software Nepal", "SaaS Nepal", "inventory software Nepal", "POS software Nepal", "school management software Nepal", "hospital management software Nepal", "custom ERP Nepal", "software support Nepal",
       "IT training Nepal", "web development course Nepal", "programming course Nepal", "web development training Damak", "online coding course Nepal", "वेब डेवलपमेन्ट तालिम नेपाल",
-      "product photography Nepal", "product photos for ecommerce Nepal", "product photography Damak", "ecommerce product photography Nepal", "affordable product photography Nepal", "product photography package Nepal", "product photos for online shop Nepal", "सामानको फोटोग्राफी नेपाल"
+      "digital marketing course Nepal", "SEO training Nepal", "app development course Nepal", "graphic design course Nepal", "UI UX training Nepal", "online IT course Nepal", "best IT institute Nepal",
+      "product photography Nepal", "product photos for ecommerce Nepal", "product photography Damak", "ecommerce product photography Nepal", "affordable product photography Nepal", "product photography package Nepal", "product photos for online shop Nepal", "सामानको फोटोग्राफी नेपाल",
+      "commercial photography Nepal", "studio photography Nepal", "creative product photography Nepal", "360 product photography Nepal", "product video Nepal", "ecommerce videography Nepal"
     ]
   },
 

@@ -118,8 +118,8 @@ export default function BlogPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Blog",
-            "@id": "https://aoneskill.com.np/blog#blog",
-            "url": "https://aoneskill.com.np/blog",
+            "@id": "https://aoneskills.com.np/blog#blog",
+            "url": "https://aoneskills.com.np/blog",
             "name": "AOne Skills Nepal IT Blog",
             "description": "Latest insights on web development, mobile app development, digital marketing, SEO tips, and technology trends in Nepal.",
             "inLanguage": ["en", "ne"],
@@ -132,7 +132,7 @@ export default function BlogPage() {
               "name": "AOne Skills International Nepal",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://aoneskill.com.np/images/logo.png"
+                "url": "https://aoneskills.com.np/images/logo.png"
               }
             }
           })
