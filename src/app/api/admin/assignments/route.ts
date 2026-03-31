@@ -51,7 +51,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "workerId and taskIds are required" }, { status: 400 });
   }
 
-  const values = taskIds.map((taskId) => [taskId, workerId]);
+  const values = taskIds.map((taskId: number) => [taskId, workerId]);
 
   await query(
     "INSERT IGNORE INTO task_assignments (task_id, worker_id) VALUES ?",
